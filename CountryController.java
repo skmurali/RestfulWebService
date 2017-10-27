@@ -24,6 +24,6 @@ public class CountryController {
     
     public List<Country> listCountries() {
         int Id =  0;
-        return countryService.findAll(Id);
+        return countryService.findCountries(Id);
     }
 }
