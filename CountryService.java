@@ -29,7 +29,7 @@ public class CountryService implements ICountryService
     }
 
     @Override
-    public ArrayList<Country> findAll(int Id) {
+    public ArrayList<Country> findCountries(int Id) {
 
       Id = 0 ;
     	
