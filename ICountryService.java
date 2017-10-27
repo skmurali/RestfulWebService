@@ -6,8 +6,7 @@ import java.util.ArrayList;
 
 public interface ICountryService {
     
-    public ArrayList<Country> findAll(int Id);
-
-
+    public ArrayList<Country> findCountries(int Id);
+    
 
 }
