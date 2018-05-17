@@ -27,7 +27,7 @@ import org.glassfish.jersey.media.multipart.FormDataParam;
 public class FileUpAndDownLoadService {
 
  
-    private static final String FOLDER_PATH = "C:\\ahila\\test\\";
+    private static final String FOLDER_PATH = "C:\\Users\\Documents\\test\\";
      
     @POST
     @Path("/upload")
@@ -79,7 +79,7 @@ public class FileUpAndDownLoadService {
         File file = new File("C:/Users/Documents/test/testimage.jpg");
  
         ResponseBuilder responseBuilder = Response.ok((Object) file);
-        responseBuilder.header("Content-Disposition", "attachment; filename=\"ivanka_trump_nude2.jpg\"");
+        responseBuilder.header("Content-Disposition", "attachment; filename=\"testimage.jpg\"");
         return responseBuilder.build();
     }
  
